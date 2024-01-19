@@ -15,5 +15,7 @@
 <h2>Screenshots</h2>
 
 <div align='center'>
-    #link to img will add in next commit
+    <img src='https://github.com/baskaaleksander/InfluX/blob/main/images/desktopview.png?raw=true' />
+    <img src='https://github.com/baskaaleksander/InfluX/blob/main/images/modal.png?raw=true' />
+    <img src='https://github.com/baskaaleksander/InfluX/blob/main/images/mobileview.png?raw=true' />
 </div>
