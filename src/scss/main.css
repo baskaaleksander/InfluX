@@ -268,14 +268,6 @@ button {
   }
 }
 
-.sent-component {
-  width: 50%;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .hero {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

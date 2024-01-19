@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import useScreenSize from './useScreenSize';
 import { Spin as Hamburger } from 'hamburger-react'
 import { motion, AnimatePresence } from 'framer-motion';
-import { Link } from "react-router-dom";
 
 
 const navItems = ["Services", "Pricing", "Testimonials"]
