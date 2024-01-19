@@ -1,0 +1,24 @@
+.testimonials-outer {
+    width: 100%;
+    background-color: $primary-color;
+    padding: 25px 0;
+    .testimonials-title {
+        margin: 0 10%;
+        display: inline-block;
+        background-color: white;
+        font-family: $heading-font;
+    }
+}
+
+.testimonials {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 25px 10%;
+    @media (max-width: 968px) {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 25px 0;
+    }
+}

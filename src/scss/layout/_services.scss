@@ -1,0 +1,21 @@
+.services {
+    width: 80%;
+    margin: 50px 10%;
+
+}
+.service-cards {
+    width: 1000%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px; /* Adjust the gap between grid items as needed */
+    max-width: 100%;
+    align-items: center;
+    margin: 50px 0;
+
+    @media (max-width: 968px) {
+        display: flex;
+        flex-direction: column;
+
+    
+    }
+}

@@ -1,0 +1,14 @@
+body {
+    font-family: $body-font;
+    min-height: 100vh;
+}
+
+.title {
+    display: inline-block;
+    background-color: $primary-color;
+    font-family: $heading-font;
+}
+
+main {
+    scroll-behavior: smooth;
+}

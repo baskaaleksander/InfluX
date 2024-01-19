@@ -1,0 +1,36 @@
+.hero {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        margin: 50px 10%;
+        
+        img {
+            justify-self: right;
+        }
+
+        @media (max-width: 968px) {
+            display: block;
+            text-align: center;
+
+            img {
+                display: none;
+            }
+        }
+}
+
+.hero-text {
+    h1 {
+        font-family: $heading-font;
+        font-size: $h1-size;
+        line-height: 2.5rem;
+    }
+
+    h2 {
+        font-size: $text-normal;
+        color: $secondary-text-color;
+        font-weight: $normal;
+        margin: 20px 0;
+    }
+
+}

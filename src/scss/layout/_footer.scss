@@ -1,0 +1,23 @@
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: $text-color;
+    display: flex;
+    justify-content: center;
+    
+    p {
+        padding: 20px 0;
+        color: white;
+
+        a {
+            text-decoration: none;
+            color: $primary-color;
+            font-weight: $bold;
+            transition: color ease-in 200ms;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}

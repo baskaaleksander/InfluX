@@ -1,0 +1,47 @@
+@import '../utilities/_variables.scss';
+
+button {
+    
+    font-family: $body-font;
+    border-radius: 8px;
+    font-weight: $bold;
+    transition: all ease-in 200ms;
+    
+}
+
+.contact-btn {
+    padding: 8px 25px;
+    border: 2px solid $text-color;
+    background-color: white;
+
+    &:hover {
+        background-color: $text-color;
+        color: white;
+    }
+
+}
+
+.offer-btn {
+    background-color: $text-color;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    
+    &:hover {
+        color: $text-color;
+        border: 2px solid $text-color;
+        background-color: white;          
+    }
+}
+
+.close-modal {
+    font-size: 1.25rem;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: color ease-in 200ms;
+    align-self: flex-end;
+    &:hover {
+        color: $primary-color;
+    }
+}

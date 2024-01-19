@@ -1,0 +1,21 @@
+.testimonial-card {
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    border: 3px solid $text-color;
+    box-shadow: 0px 4px 0px 0px $text-color;
+    text-align: center;
+    height: 300px;
+    margin: 0 20px;
+    padding: 30px 30px;
+    
+    .testimonial-title {
+        color: $secondary-text-color;
+    }
+
+    .review {
+        font-size: $text-mini;
+        color: $text-color;
+        text-align: justify;
+        padding-top: 15px;
+    }
+}

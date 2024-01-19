@@ -1,0 +1,15 @@
+.partners {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Two columns */
+    gap: 10px; /* Adjust the gap between grid items as needed */
+    max-width: 80%;
+    margin: 20px auto; /* Adjust the margin as needed */
+    align-items: center;
+    justify-items: center;
+
+    img {
+        width: 40%;
+        filter: invert(42%) sepia(11%) saturate(0%) hue-rotate(192deg) brightness(95%)
+    contrast(81%);
+    }
+}
