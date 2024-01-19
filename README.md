@@ -1,8 +1,19 @@
-# React + Vite
+<h2>About my project</h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>InfluX is a fully responsive website with couple of modern features. It can be easily modified for anyone else data. Building this project helped me in developing my skills using modern webdeveloper frameworks, as it is my first project built in React</p>
 
-Currently, two official plugins are available:
+<b>Live demo: </b><a href="https://influ-x.vercel.app/">Click me!</a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h3>Built using:</h3>
+<ul>
+    <li>HTML</li>
+    <li>SCSS</li>
+    <li>React</li>
+    <li>Framer Motion</li>
+</ul>
+
+<h2>Screenshots</h2>
+
+<div align='center'>
+    #link to img will add in next commit
+</div>
